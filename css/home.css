@@ -2,7 +2,7 @@
 
 .hero-section {
   width: 100%;
-  background-image: url("../img/8.png");
+  background-image: url("../img/banner.png");
   background-size: cover;
   height: calc(100vh - 120px);
   display: flex;
@@ -165,17 +165,17 @@
 }
 
 /*Collections*/
-.collection-container{
+.collection-container {
   width: 100%;
   display: grid;
   grid-template: repeat(2, 1fr);
 }
 
-.collection{
+.collection {
   position: relative;
 }
 
-.collection img{
+.collection img {
   width: 100%;
   height: 100%;
   object-fit: cover;
